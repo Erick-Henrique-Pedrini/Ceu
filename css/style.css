@@ -1,0 +1,118 @@
+*{
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+html a{
+    color: #000000;
+}
+nav{
+    display: flex;
+    align-items: center;
+    padding: 2vw;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+}
+ul{
+    display: flex;
+    align-items: center;
+    
+}
+ul li{
+    margin: 1vw ;
+
+}
+.select{
+    color: #1090CB;
+}
+.esp{
+    background-color: #1090CB;
+    border: none;
+    color: white;
+    width: 125px;
+    height: 40px;
+    border-radius: 2vw;
+}
+.apresentação{
+    display: flex;
+    align-items: center;
+    padding: 0 3vw 0 3vw;
+    justify-content: space-around;
+    background-color: #bde5f8;
+    & p{
+        width: 700px;
+    }
+    & img{
+        width: 600px;
+        height: 750px;
+    }
+    & .branco{
+        background-color: white;
+        border: 1px #1090CB solid;
+        color: #1090CB;
+        width: 125px;
+        height: 40px;
+        border-radius: 2vw;
+    }
+    & h1{
+        font-size: 2.4vw;
+    }
+    & p{
+        font-size: 1.3vw;
+    }
+}
+.items{
+    display: flex;
+    & ul{
+        display: flex;
+        align-items: center;        
+        margin: 4vw 3vw 4vw 3vw;
+        justify-content: center;
+        & li {
+            display: flex;
+            align-items: center;
+        }
+
+    }
+    & img{
+        max-width: 40px;
+        max-height: 40px;
+        background-color: #fcc3f2;
+        padding: 2vw;
+        border-radius: 20px ;
+        margin-right: 2vw;
+    }
+    & div{
+        & p{
+            color: #031331;
+            margin-top: -10px;
+        }
+    }
+
+}
+.texto{
+    & h2{
+        color: black;
+        font-size: 2vw;
+        text-align: center;
+
+    }
+    & h3{
+        font-weight: 100;
+        font-size: 1.5vw;
+        text-align: center;
+    }
+    & h4{
+        font-size: 3vw;
+        
+    }
+    & p {
+        font-weight: 100;
+        width: 700px;
+    }
+    & div{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+}
